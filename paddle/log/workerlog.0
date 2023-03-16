@@ -1080,3 +1080,99 @@ Downloading and preparing dataset json/default to C:/Users/015226863/.cache/hugg
 [32m[2023-03-16 09:54:08,830] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\tokenizer_config.json[0m
 [32m[2023-03-16 09:54:08,840] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\special_tokens_map.json[0m
 [32m[2023-03-16 09:54:08,840] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\added_tokens.json[0m
+F:\ProgramData\Anaconda3\envs\my_paddlenlp\lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[33m[2023-03-17 00:23:38,247] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
+Namespace(adam_epsilon=1e-06, block_size=256, device='cpu', eval_batch_size=1, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='F:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=1, train_file='trainData\\train3.json', use_amp=False, validation_file='trainData\\test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
+[32m[2023-03-17 00:23:48,774] [    INFO][0m - Already cached F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
+[32m[2023-03-17 00:23:48,774] [    INFO][0m - Already cached F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
+[32m[2023-03-17 00:23:48,774] [    INFO][0m - Already cached F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
+[32m[2023-03-17 00:23:48,774] [    INFO][0m - Already cached F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
+[32m[2023-03-17 00:23:48,790] [    INFO][0m - Already cached F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                                 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                                to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                               to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                              to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                             to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                            to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                           to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                          to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                         to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                        to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                       to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                      to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                     to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                    to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                   to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                  to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding                to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding               to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding              to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding             to the vocabulary[0m
+[32m[2023-03-17 00:23:48,974] [    INFO][0m - Adding            to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding           to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding          to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding         to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding        to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding       to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding      to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding     to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding    to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 									 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 								 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 							 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 						 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 					 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 				 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 			 to the vocabulary[0m
+[32m[2023-03-17 00:23:48,990] [    INFO][0m - Adding 		 to the vocabulary[0m
+Downloading and preparing dataset json/default to C:/Users/plague/.cache/huggingface/datasets/json/default-0aeb46bfdad671d7/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 26.44it/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 2 examples [00:00,  8.65 examples/s]                                                            Dataset json downloaded and prepared to C:/Users/plague/.cache/huggingface/datasets/json/default-0aeb46bfdad671d7/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
+Downloading and preparing dataset json/default to C:/Users/plague/.cache/huggingface/datasets/json/default-8792ff205a66ec64/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/plague/.cache/huggingface/datasets/json/default-8792ff205a66ec64/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
+Map:   0%|          | 0/2 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:00<00:00,  3.34 examples/s]                                                         Map:   0%|          | 0/2 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:00<00:00, 17.27 examples/s]                                                         Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-17 00:23:56,353] [    INFO][0m - Found F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
+[32m[2023-03-17 00:23:56,353] [    INFO][0m - loading configuration file F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
+[32m[2023-03-17 00:23:56,359] [    INFO][0m - Model config CodeGenConfig {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "CodeGenForCausalLM"
+  ],
+  "attn_pdrop": 0.0,
+  "bos_token_id": 1,
+  "embd_pdrop": 0.0,
+  "eos_token_id": 2,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "codegen",
+  "n_ctx": 2048,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 20,
+  "n_positions": 2048,
+  "pad_token_id": 50256,
+  "paddlenlp_version": null,
+  "resid_pdrop": 0.0,
+  "rotary_dim": 32,
+  "vocab_size": 51200
+}
+[0m
+[32m[2023-03-17 00:23:56,422] [    INFO][0m - Found F:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
+[33m[2023-03-17 00:25:30,134] [ WARNING][0m - Some weights of the model checkpoint at Salesforce/codegen-350M-multi were not used when initializing CodeGenForCausalLM: ['transformer.h.1.attn.causal_mask', 'transformer.h.13.attn.causal_mask', 'transformer.h.12.attn.causal_mask', 'transformer.h.6.attn.causal_mask', 'transformer.h.2.attn.causal_mask', 'transformer.h.11.attn.causal_mask', 'transformer.h.0.attn.causal_mask', 'transformer.h.10.attn.causal_mask', 'transformer.h.7.attn.causal_mask', 'transformer.h.19.attn.causal_mask', 'transformer.h.8.attn.causal_mask', 'transformer.h.18.attn.causal_mask', 'transformer.h.9.attn.causal_mask', 'transformer.h.5.attn.causal_mask', 'transformer.h.3.attn.causal_mask', 'transformer.h.17.attn.causal_mask', 'transformer.h.15.attn.causal_mask', 'transformer.h.4.attn.causal_mask', 'transformer.h.16.attn.causal_mask', 'transformer.h.14.attn.causal_mask']
+- This IS expected if you are initializing CodeGenForCausalLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing CodeGenForCausalLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2023-03-17 00:25:30,134] [    INFO][0m - All the weights of CodeGenForCausalLM were initialized from the model checkpoint at Salesforce/codegen-350M-multi.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use CodeGenForCausalLM for predictions without further training.[0m
+[32m[2023-03-17 00:27:14,997] [    INFO][0m - global step 1/15, epoch: 0, batch: 0, rank_id: 0, loss: 1.597612, ppl: 4.941219, lr: 0.0001000000, speed: 0.0096 step/s[0m
+[32m[2023-03-17 00:30:48,764] [    INFO][0m - global step 2/15, epoch: 0, batch: 1, rank_id: 0, loss: 1.654751, ppl: 5.231779, lr: 0.0000928571, speed: 0.0047 step/s[0m
+[32m[2023-03-17 00:34:12,225] [    INFO][0m - global step 3/15, epoch: 0, batch: 2, rank_id: 0, loss: 1.003053, ppl: 2.726595, lr: 0.0000857143, speed: 0.0049 step/s[0m
+[32m[2023-03-17 00:36:47,275] [    INFO][0m - global step 4/15, epoch: 1, batch: 0, rank_id: 0, loss: 0.639184, ppl: 1.894934, lr: 0.0000785714, speed: 0.0065 step/s[0m
+[32m[2023-03-17 00:39:27,102] [    INFO][0m - global step 5/15, epoch: 1, batch: 1, rank_id: 0, loss: 1.265173, ppl: 3.543707, lr: 0.0000714286, speed: 0.0063 step/s[0m
+[32m[2023-03-17 00:41:25,151] [    INFO][0m - global step 6/15, epoch: 1, batch: 2, rank_id: 0, loss: 1.109671, ppl: 3.033362, lr: 0.0000642857, speed: 0.0085 step/s[0m
+[32m[2023-03-17 00:43:12,642] [    INFO][0m - global step 7/15, epoch: 2, batch: 0, rank_id: 0, loss: 0.382556, ppl: 1.466028, lr: 0.0000571429, speed: 0.0093 step/s[0m
+[32m[2023-03-17 00:44:51,682] [    INFO][0m - global step 8/15, epoch: 2, batch: 1, rank_id: 0, loss: 0.370297, ppl: 1.448165, lr: 0.0000500000, speed: 0.0101 step/s[0m
