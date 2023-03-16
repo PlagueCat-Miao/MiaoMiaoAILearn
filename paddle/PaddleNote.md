@@ -1,6 +1,12 @@
 # PaddleNode学习手册
 
+### 快速启动
 
+#### 1. 进入paddlenlp环境
+
+```powershell
+conda activate my_paddlenlp
+```
 
 
 
