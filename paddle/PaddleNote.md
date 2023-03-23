@@ -11,6 +11,24 @@ conda activate my_paddlenlp
 conda activate paddle_env
 ```
 
+#### 2.GPU启动训练
+
+- 
+
+- 【注意1】GPU加速及多GPU运行问题：
+
+  1. 使用命令前先用 `unset CUDA_VISIBLE_DEVICES` 命令清空变量；
+
+  2. 再使用 export CUDA_VISIBLE_DEVICES 命令设置使用哪张或者哪几张显卡；
+
+     ```
+     export CUDA_VISIBLE_DEVICES= 使用0号显卡（pmemd.cuda）
+     
+     export CUDA_VISIBLE_DEVICES=, 使用0，1两张显卡（mpirun -np 2 pmemd.cuda.MPI）
+     ```
+
+-  
+
 
 
 ## 附录

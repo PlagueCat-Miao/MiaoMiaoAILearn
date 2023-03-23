@@ -1,1082 +1,0 @@
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:33:53,207] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-usage: run_clm.py [-h] --model_name_or_path MODEL_NAME_OR_PATH --output_dir
-                  OUTPUT_DIR --train_file TRAIN_FILE --validation_file
-                  VALIDATION_FILE [--block_size BLOCK_SIZE]
-                  [--learning_rate LEARNING_RATE]
-                  [--num_train_epochs NUM_TRAIN_EPOCHS]
-                  [--logging_steps LOGGING_STEPS] [--save_steps SAVE_STEPS]
-                  [--train_batch_size TRAIN_BATCH_SIZE]
-                  [--eval_batch_size EVAL_BATCH_SIZE]
-                  [--weight_decay WEIGHT_DECAY] [--warmup_steps WARMUP_STEPS]
-                  [--warmup_proportion WARMUP_PROPORTION]
-                  [--adam_epsilon ADAM_EPSILON] [--max_steps MAX_STEPS]
-                  [--seed SEED] [--device {cpu,gpu,xpu}] [--overwrite_cache]
-                  [--use_amp USE_AMP] [--scale_loss SCALE_LOSS]
-run_clm.py: error: the following arguments are required: --model_name_or_path, --output_dir, --train_file, --validation_file
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:35:36,327] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-usage: run_clm.py [-h] --model_name_or_path MODEL_NAME_OR_PATH --output_dir
-                  OUTPUT_DIR --train_file TRAIN_FILE --validation_file
-                  VALIDATION_FILE [--block_size BLOCK_SIZE]
-                  [--learning_rate LEARNING_RATE]
-                  [--num_train_epochs NUM_TRAIN_EPOCHS]
-                  [--logging_steps LOGGING_STEPS] [--save_steps SAVE_STEPS]
-                  [--train_batch_size TRAIN_BATCH_SIZE]
-                  [--eval_batch_size EVAL_BATCH_SIZE]
-                  [--weight_decay WEIGHT_DECAY] [--warmup_steps WARMUP_STEPS]
-                  [--warmup_proportion WARMUP_PROPORTION]
-                  [--adam_epsilon ADAM_EPSILON] [--max_steps MAX_STEPS]
-                  [--seed SEED] [--device {cpu,gpu,xpu}] [--overwrite_cache]
-                  [--use_amp USE_AMP] [--scale_loss SCALE_LOSS]
-run_clm.py: error: argument --save_steps: invalid int value: '10--train_batch_size'
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:36:39,485] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-usage: run_clm.py [-h] --model_name_or_path MODEL_NAME_OR_PATH --output_dir
-                  OUTPUT_DIR --train_file TRAIN_FILE --validation_file
-                  VALIDATION_FILE [--block_size BLOCK_SIZE]
-                  [--learning_rate LEARNING_RATE]
-                  [--num_train_epochs NUM_TRAIN_EPOCHS]
-                  [--logging_steps LOGGING_STEPS] [--save_steps SAVE_STEPS]
-                  [--train_batch_size TRAIN_BATCH_SIZE]
-                  [--eval_batch_size EVAL_BATCH_SIZE]
-                  [--weight_decay WEIGHT_DECAY] [--warmup_steps WARMUP_STEPS]
-                  [--warmup_proportion WARMUP_PROPORTION]
-                  [--adam_epsilon ADAM_EPSILON] [--max_steps MAX_STEPS]
-                  [--seed SEED] [--device {cpu,gpu,xpu}] [--overwrite_cache]
-                  [--use_amp USE_AMP] [--scale_loss SCALE_LOSS]
-run_clm.py: error: the following arguments are required: --model_name_or_path, --output_dir, --train_file, --validation_file
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:39:50,004] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-usage: run_clm.py [-h] --model_name_or_path MODEL_NAME_OR_PATH --output_dir
-                  OUTPUT_DIR --train_file TRAIN_FILE --validation_file
-                  VALIDATION_FILE [--block_size BLOCK_SIZE]
-                  [--learning_rate LEARNING_RATE]
-                  [--num_train_epochs NUM_TRAIN_EPOCHS]
-                  [--logging_steps LOGGING_STEPS] [--save_steps SAVE_STEPS]
-                  [--train_batch_size TRAIN_BATCH_SIZE]
-                  [--eval_batch_size EVAL_BATCH_SIZE]
-                  [--weight_decay WEIGHT_DECAY] [--warmup_steps WARMUP_STEPS]
-                  [--warmup_proportion WARMUP_PROPORTION]
-                  [--adam_epsilon ADAM_EPSILON] [--max_steps MAX_STEPS]
-                  [--seed SEED] [--device {cpu,gpu,xpu}] [--overwrite_cache]
-                  [--use_amp USE_AMP] [--scale_loss SCALE_LOSS]
-run_clm.py: error: the following arguments are required: --output_dir, --train_file, --validation_file
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:40:26,327] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-usage: run_clm.py [-h] --model_name_or_path MODEL_NAME_OR_PATH --output_dir
-                  OUTPUT_DIR --train_file TRAIN_FILE --validation_file
-                  VALIDATION_FILE [--block_size BLOCK_SIZE]
-                  [--learning_rate LEARNING_RATE]
-                  [--num_train_epochs NUM_TRAIN_EPOCHS]
-                  [--logging_steps LOGGING_STEPS] [--save_steps SAVE_STEPS]
-                  [--train_batch_size TRAIN_BATCH_SIZE]
-                  [--eval_batch_size EVAL_BATCH_SIZE]
-                  [--weight_decay WEIGHT_DECAY] [--warmup_steps WARMUP_STEPS]
-                  [--warmup_proportion WARMUP_PROPORTION]
-                  [--adam_epsilon ADAM_EPSILON] [--max_steps MAX_STEPS]
-                  [--seed SEED] [--device {cpu,gpu,xpu}] [--overwrite_cache]
-                  [--use_amp USE_AMP] [--scale_loss SCALE_LOSS]
-run_clm.py: error: the following arguments are required: --output_dir
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:44:16,671] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 13:44:17,490] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-10 13:44:17,491] [    INFO][0m - Downloading vocab.json from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json[0m
-[31m[2023-03-10 13:44:17,660] [   ERROR][0m - Downloading from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json failed with code 404![0m
-Traceback (most recent call last):
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\tokenizer_utils_base.py", line 1559, in from_pretrained
-    resolved_vocab_files[file_id] = get_path_from_url(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\utils\downloader.py", line 164, in get_path_from_url
-    fullpath = _download(url, root_dir, md5sum)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\utils\downloader.py", line 200, in _download
-    raise RuntimeError("Downloading from {} failed with code "
-RuntimeError: Downloading from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json failed with code 404!
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 188, in do_train
-    tokenizer = CodeGenTokenizer.from_pretrained(args.model_name_or_path)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\tokenizer_utils_base.py", line 1566, in from_pretrained
-    raise RuntimeError(
-RuntimeError: Can't load tokenizer for 'Salesforce/codegen-350M-multi'.
-Please make sure that 'Salesforce/codegen-350M-multi' is:
-- a correct model-identifier of built-in pretrained models,
-- or a correct model-identifier of community-contributed pretrained models,
-- or the correct path to a directory containing relevant tokenizer files.
-
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:45:21,665] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-mono', num_train_epochs=5, output_dir='output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 13:45:22,487] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:45:22,487] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\vocab.json[0m
-[32m[2023-03-10 13:45:22,491] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:45:22,492] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\merges.txt[0m
-[32m[2023-03-10 13:45:22,494] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:45:22,494] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\added_tokens.json[0m
-[32m[2023-03-10 13:45:22,496] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:45:22,496] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\special_tokens_map.json[0m
-[32m[2023-03-10 13:45:22,497] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:45:22,497] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\tokenizer_config.json[0m
-[32m[2023-03-10 13:45:22,585] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,585] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-10 13:45:22,586] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-10 13:45:22,587] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-10 13:45:22,588] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-10 13:45:22,588] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,588] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-10 13:45:22,588] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-10 13:45:22,588] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-10 13:45:22,589] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-10 13:45:22,590] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-10 13:45:22,590] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-10 13:45:22,590] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-10 13:45:22,590] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-10 13:45:22,590] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,591] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,591] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,591] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,591] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,591] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,592] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-10 13:45:22,592] [    INFO][0m - Adding 		 to the vocabulary[0m
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 499.98it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 191, in do_train
-    dev_set = load_dataset("json", data_files=args.validation_file, split="train")
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1759, in load_dataset
-    builder_instance = load_dataset_builder(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1496, in load_dataset_builder
-    dataset_module = dataset_module_factory(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1129, in dataset_module_factory
-    return PackagedDatasetModuleFactory(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 709, in get_module
-    data_files = DataFilesDict.from_local_or_remote(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 796, in from_local_or_remote
-    DataFilesList.from_local_or_remote(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 764, in from_local_or_remote
-    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 362, in resolve_patterns_locally_or_by_urls
-    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 306, in _resolve_single_pattern_locally
-    raise FileNotFoundError(error_msg)
-FileNotFoundError: Unable to find 'D:\codeworkbase\python\PaddleNLP\examples\code_generation\codegen\test.json' at D:\codeworkbase\python\PaddleNLP\examples\code_generation\codegen
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:53:10,317] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-mono', num_train_epochs=5, output_dir='output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 13:53:11,160] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:53:11,161] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\vocab.json[0m
-[32m[2023-03-10 13:53:11,162] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:53:11,162] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\merges.txt[0m
-[32m[2023-03-10 13:53:11,163] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:53:11,164] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\added_tokens.json[0m
-[32m[2023-03-10 13:53:11,165] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:53:11,165] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\special_tokens_map.json[0m
-[32m[2023-03-10 13:53:11,166] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:53:11,166] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\tokenizer_config.json[0m
-[32m[2023-03-10 13:53:11,252] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,252] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-10 13:53:11,252] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-10 13:53:11,253] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-10 13:53:11,254] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-10 13:53:11,254] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-10 13:53:11,254] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-10 13:53:11,254] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-10 13:53:11,254] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-10 13:53:11,255] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-10 13:53:11,256] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-10 13:53:11,256] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-10 13:53:11,256] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-10 13:53:11,256] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-10 13:53:11,257] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-10 13:53:11,257] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-10 13:53:11,257] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-10 13:53:11,257] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-10 13:53:11,258] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-10 13:53:11,258] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,258] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,258] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,259] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,259] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,259] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,259] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-10 13:53:11,260] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 191, in do_train
-    dev_set = load_dataset("json", data_files=args.validation_file, split="train")
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1759, in load_dataset
-    builder_instance = load_dataset_builder(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1496, in load_dataset_builder
-    dataset_module = dataset_module_factory(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 1129, in dataset_module_factory
-    return PackagedDatasetModuleFactory(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\load.py", line 709, in get_module
-    data_files = DataFilesDict.from_local_or_remote(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 796, in from_local_or_remote
-    DataFilesList.from_local_or_remote(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 764, in from_local_or_remote
-    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 362, in resolve_patterns_locally_or_by_urls
-    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
-  File "D:\ProgramData\Anaconda3\lib\site-packages\datasets\data_files.py", line 306, in _resolve_single_pattern_locally
-    raise FileNotFoundError(error_msg)
-FileNotFoundError: Unable to find 'D:\codeworkbase\python\PaddleNLP\examples\code_generation\codegen\test.json' at D:\codeworkbase\python\PaddleNLP\examples\code_generation\codegen
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 13:59:04,446] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-mono', num_train_epochs=5, output_dir='output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 13:59:05,253] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:05,253] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\vocab.json[0m
-[32m[2023-03-10 13:59:05,255] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:05,255] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\merges.txt[0m
-[32m[2023-03-10 13:59:05,256] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:05,256] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\added_tokens.json[0m
-[32m[2023-03-10 13:59:05,257] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:05,258] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\special_tokens_map.json[0m
-[32m[2023-03-10 13:59:05,259] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:05,259] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\tokenizer_config.json[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-10 13:59:05,340] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-10 13:59:05,341] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,342] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-10 13:59:05,343] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-10 13:59:05,343] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-10 13:59:05,343] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-10 13:59:05,343] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-10 13:59:05,343] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-10 13:59:05,344] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-10 13:59:05,344] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-10 13:59:05,344] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-10 13:59:05,344] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-10 13:59:05,345] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-10 13:59:05,345] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-10 13:59:05,345] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-10 13:59:05,346] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,346] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,346] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,346] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,346] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,347] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,347] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-10 13:59:05,347] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 1000.07it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 333.36it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-10 13:59:10,388] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:10,389] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\model_state.pdparams[0m
-[32m[2023-03-10 13:59:10,392] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 13:59:10,393] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\model_config.json[0m
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 273, in do_train
-    optimizer.step()
-  File "D:\ProgramData\Anaconda3\lib\site-packages\decorator.py", line 231, in fun
-    return caller(func, *(extras + args), **kw)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\base.py", line 319, in __impl__
-    return func(*args, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\decorator.py", line 231, in fun
-    return caller(func, *(extras + args), **kw)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\wrapped_decorator.py", line 26, in __impl__
-    return wrapped_func(*args, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\framework.py", line 534, in __impl__
-    return func(*args, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\adamw.py", line 578, in step
-    optimize_ops = self._apply_optimize(loss=None,
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\optimizer.py", line 1166, in _apply_optimize
-    optimize_ops = self._create_optimization_pass(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\optimizer.py", line 924, in _create_optimization_pass
-    self._create_accumulators(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\adamw.py", line 406, in _create_accumulators
-    self._add_moments_pows(p)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\adamw.py", line 371, in _add_moments_pows
-    self._add_accumulator(self._moment1_acc_str, p, dtype=acc_dtype)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\optimizer\optimizer.py", line 747, in _add_accumulator
-    self.helper.set_variable_initializer(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\layer_helper_base.py", line 475, in set_variable_initializer
-    initializer(var, self.main_program.global_block())
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\initializer.py", line 56, in __call__
-    return self.forward(param, block)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\initializer.py", line 173, in forward
-    _C_ops.full_(var, var.shape, str(float(self._value)), var.dtype,
-MemoryError: (ResourceExhausted) Fail to alloc memory of 259271040 size.
-  [Hint: p should not be null.] (at ..\paddle\fluid\memory\allocation\system_allocator.cc:75)
-
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 14:05:04,195] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-mono', num_train_epochs=5, output_dir='output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\vocab.json[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\merges.txt[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\added_tokens.json[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\special_tokens_map.json[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:05,505] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\tokenizer_config.json[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-10 14:05:05,599] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-10 14:05:10,778] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:10,778] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\model_state.pdparams[0m
-[32m[2023-03-10 14:05:10,778] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-mono\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono[0m
-[32m[2023-03-10 14:05:10,778] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-mono\model_config.json[0m
-[32m[2023-03-10 14:06:24,722] [    INFO][0m - global step 1/5, epoch: 0, batch: 0, rank_id: 0, loss: 3.719330, ppl: 41.236769, lr: 0.0000800000, speed: 0.1786 step/s[0m
-[32m[2023-03-10 14:06:29,542] [    INFO][0m - global step 2/5, epoch: 1, batch: 0, rank_id: 0, loss: 1.886124, ppl: 6.593761, lr: 0.0000600000, speed: 0.2075 step/s[0m
-[32m[2023-03-10 14:06:34,238] [    INFO][0m - global step 3/5, epoch: 2, batch: 0, rank_id: 0, loss: 0.684818, ppl: 1.983411, lr: 0.0000400000, speed: 0.2130 step/s[0m
-[32m[2023-03-10 14:06:38,918] [    INFO][0m - global step 4/5, epoch: 3, batch: 0, rank_id: 0, loss: 0.104439, ppl: 1.110088, lr: 0.0000200000, speed: 0.2137 step/s[0m
-[32m[2023-03-10 14:06:43,598] [    INFO][0m - global step 5/5, epoch: 4, batch: 0, rank_id: 0, loss: 0.027992, ppl: 1.028387, lr: 0.0000000000, speed: 0.2137 step/s[0m
-[32m[2023-03-10 14:06:43,910] [    INFO][0m - [validation] accuracy: 0.000000, loss: 0.967072, ppl: 2.630233[0m
-[32m[2023-03-10 14:06:43,910] [    INFO][0m - eval done total : 0.3119997978210449 s[0m
-[32m[2023-03-10 14:07:07,435] [    INFO][0m - tokenizer config file saved in output\tokenizer_config.json[0m
-[32m[2023-03-10 14:07:07,466] [    INFO][0m - Special tokens file saved in output\special_tokens_map.json[0m
-[32m[2023-03-10 14:07:07,481] [    INFO][0m - added tokens file saved in output\added_tokens.json[0m
-[32m[2023-03-10 14:07:17,684] [    INFO][0m - tokenizer config file saved in output\codegen_model_final_5\tokenizer_config.json[0m
-[32m[2023-03-10 14:07:17,699] [    INFO][0m - Special tokens file saved in output\codegen_model_final_5\special_tokens_map.json[0m
-[32m[2023-03-10 14:07:17,699] [    INFO][0m - added tokens file saved in output\codegen_model_final_5\added_tokens.json[0m
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-10 14:14:51,561] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-10 14:14:52,762] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-10 14:14:52,762] [    INFO][0m - Downloading vocab.json from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json[0m
-[31m[2023-03-10 14:14:53,012] [   ERROR][0m - Downloading from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json failed with code 404![0m
-Traceback (most recent call last):
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\tokenizer_utils_base.py", line 1559, in from_pretrained
-    resolved_vocab_files[file_id] = get_path_from_url(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\utils\downloader.py", line 164, in get_path_from_url
-    fullpath = _download(url, root_dir, md5sum)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\utils\downloader.py", line 200, in _download
-    raise RuntimeError("Downloading from {} failed with code "
-RuntimeError: Downloading from https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json failed with code 404!
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 188, in do_train
-    tokenizer = CodeGenTokenizer.from_pretrained(args.model_name_or_path)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\tokenizer_utils_base.py", line 1566, in from_pretrained
-    raise RuntimeError(
-RuntimeError: Can't load tokenizer for 'Salesforce/codegen-350M-multi'.
-Please make sure that 'Salesforce/codegen-350M-multi' is:
-- a correct model-identifier of built-in pretrained models,
-- or a correct model-identifier of community-contributed pretrained models,
-- or the correct path to a directory containing relevant tokenizer files.
-
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-11 11:13:37,895] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:39,081] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-11 11:13:39,190] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-29c4d1b4c724bfb4/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-11 11:13:45,898] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:45,898] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-11 11:13:45,898] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-11 11:13:45,898] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-[32m[2023-03-11 11:14:59,109] [    INFO][0m - global step 1/5, epoch: 0, batch: 0, rank_id: 0, loss: 1.850524, ppl: 6.363150, lr: 0.0000800000, speed: 0.1842 step/s[0m
-[32m[2023-03-11 11:15:03,633] [    INFO][0m - global step 2/5, epoch: 1, batch: 0, rank_id: 0, loss: 1.796152, ppl: 6.026410, lr: 0.0000600000, speed: 0.2210 step/s[0m
-[32m[2023-03-11 11:15:07,814] [    INFO][0m - global step 3/5, epoch: 2, batch: 0, rank_id: 0, loss: 1.291795, ppl: 3.639314, lr: 0.0000400000, speed: 0.2392 step/s[0m
-[32m[2023-03-11 11:15:12,431] [    INFO][0m - global step 4/5, epoch: 3, batch: 0, rank_id: 0, loss: 0.110935, ppl: 1.117322, lr: 0.0000200000, speed: 0.2166 step/s[0m
-[32m[2023-03-11 11:15:17,314] [    INFO][0m - global step 5/5, epoch: 4, batch: 0, rank_id: 0, loss: 0.037620, ppl: 1.038337, lr: 0.0000000000, speed: 0.2048 step/s[0m
-[32m[2023-03-11 11:15:17,626] [    INFO][0m - [validation] accuracy: 0.000000, loss: 1.064548, ppl: 2.899529[0m
-[32m[2023-03-11 11:15:17,626] [    INFO][0m - eval done total : 0.312000036239624 s[0m
-[32m[2023-03-11 11:15:40,839] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\tokenizer_config.json[0m
-[32m[2023-03-11 11:15:41,151] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\special_tokens_map.json[0m
-[32m[2023-03-11 11:15:41,167] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\added_tokens.json[0m
-[32m[2023-03-11 11:15:50,714] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_5\tokenizer_config.json[0m
-[32m[2023-03-11 11:15:50,714] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_5\special_tokens_map.json[0m
-[32m[2023-03-11 11:15:50,714] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_5\added_tokens.json[0m
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-14 12:12:18,648] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train2.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:20,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-14 12:12:20,614] [    INFO][0m - Adding 		 to the vocabulary[0m
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-9f77e518c93d34a9/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-9f77e518c93d34a9/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/8 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/8 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-14 12:12:25,387] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:25,403] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-14 12:12:25,403] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:12:25,403] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 265, in do_train
-    logits = model(**batch)[0]
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 660, in forward
-    lm_logits = paddle.cast(self.lm_head(hidden_states), "float32")
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\nn\layer\common.py", line 175, in forward
-    out = F.linear(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\nn\functional\common.py", line 1886, in linear
-    return _C_ops.linear(x, weight, bias)
-MemoryError: (ResourceExhausted) Fail to alloc memory of 419434496 size.
-  [Hint: p should not be null.] (at ..\paddle\fluid\memory\allocation\system_allocator.cc:75)
-  [operator < linear > error]
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-14 12:58:13,003] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train2.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-14 12:58:14,391] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:14,391] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-14 12:58:14,391] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:14,391] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:14,407] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-14 12:58:14,485] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-14 12:58:14,500] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-9f77e518c93d34a9/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/8 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/8 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-14 12:58:19,305] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:19,305] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-14 12:58:19,321] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 12:58:19,321] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 265, in do_train
-    logits = model(**batch)[0]
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 649, in forward
-    transformer_outputs = self.transformer(input_ids,
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 520, in forward
-    outputs = block(hidden_states,
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 271, in forward
-    attn_outputs = self.attn(hidden_states,
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 220, in forward
-    attn_output, attn_weights = self._attn(query, key, value,
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 138, in _attn
-    attn_weights = paddle.where(causal_mask, attn_weights, mask_value)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\tensor\search.py", line 650, in where
-    broadcast_y = paddle.add(y, broadcast_zeros)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\tensor\math.py", line 567, in add
-    return _C_ops.add( x, y)
-MemoryError: (ResourceExhausted) Fail to alloc memory of 259271040 size.
-  [Hint: p should not be null.] (at ..\paddle\fluid\memory\allocation\system_allocator.cc:75)
-
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-14 13:03:15,896] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train2.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-14 13:03:17,238] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:17,238] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:17,253] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-14 13:03:17,331] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-14 13:03:17,347] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-9f77e518c93d34a9/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/8 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 8/8 [00:00<00:00, 73.26 examples/s]                                                         Map:   0%|          | 0/8 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-14 13:03:22,339] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:22,339] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-14 13:03:22,355] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:03:22,355] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-Traceback (most recent call last):
-  File "run_clm.py", line 324, in <module>
-    do_train(args)
-  File "run_clm.py", line 265, in do_train
-    logits = model(**batch)[0]
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddlenlp\transformers\codegen\modeling.py", line 660, in forward
-    lm_logits = paddle.cast(self.lm_head(hidden_states), "float32")
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\fluid\dygraph\layers.py", line 1012, in __call__
-    return self.forward(*inputs, **kwargs)
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\nn\layer\common.py", line 175, in forward
-    out = F.linear(
-  File "D:\ProgramData\Anaconda3\lib\site-packages\paddle\nn\functional\common.py", line 1886, in linear
-    return _C_ops.linear(x, weight, bias)
-MemoryError: (ResourceExhausted) Fail to alloc memory of 419434496 size.
-  [Hint: p should not be null.] (at ..\paddle\fluid\memory\allocation\system_allocator.cc:75)
-  [operator < linear > error]
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-14 13:08:47,280] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=1024, device='cpu', eval_batch_size=2, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=2, train_file='train3.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:48,419] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-14 13:08:48,512] [    INFO][0m - Adding 		 to the vocabulary[0m
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-34b8fc9f14bccf6f/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-34b8fc9f14bccf6f/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-14 13:08:53,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:53,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-14 13:08:53,520] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:08:53,520] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-[32m[2023-03-14 13:11:32,624] [    INFO][0m - global step 1/5, epoch: 0, batch: 0, rank_id: 0, loss: 0.985334, ppl: 2.678707, lr: 0.0000800000, speed: 0.0110 step/s[0m
-[32m[2023-03-14 13:15:31,008] [    INFO][0m - global step 2/5, epoch: 1, batch: 0, rank_id: 0, loss: 1.204732, ppl: 3.335866, lr: 0.0000600000, speed: 0.0042 step/s[0m
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-14 13:29:15,626] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=256, device='cpu', eval_batch_size=1, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=1, train_file='train3.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-14 13:29:17,639] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:17,639] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-14 13:29:17,639] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:17,639] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:17,654] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-14 13:29:17,732] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-14 13:29:17,748] [    INFO][0m - Adding 		 to the vocabulary[0m
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-34b8fc9f14bccf6f/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Found cached dataset json (C:/Users/015226863/.cache/huggingface/datasets/json/default-1f1db4d92edb1463/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51)
-Map:   0%|          | 0/2 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:00<00:00, 18.32 examples/s]                                                         Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-14 13:29:22,849] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:22,849] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-14 13:29:22,849] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-14 13:29:22,849] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-[32m[2023-03-14 13:30:44,468] [    INFO][0m - global step 1/15, epoch: 0, batch: 0, rank_id: 0, loss: 1.597612, ppl: 4.941219, lr: 0.0001000000, speed: 0.0827 step/s[0m
-[32m[2023-03-14 13:31:04,701] [    INFO][0m - global step 2/15, epoch: 0, batch: 1, rank_id: 0, loss: 1.654751, ppl: 5.231779, lr: 0.0000928571, speed: 0.0494 step/s[0m
-[32m[2023-03-14 13:31:26,042] [    INFO][0m - global step 3/15, epoch: 0, batch: 2, rank_id: 0, loss: 1.003053, ppl: 2.726595, lr: 0.0000857143, speed: 0.0469 step/s[0m
-[32m[2023-03-14 13:31:39,333] [    INFO][0m - global step 4/15, epoch: 1, batch: 0, rank_id: 0, loss: 0.639184, ppl: 1.894934, lr: 0.0000785714, speed: 0.0753 step/s[0m
-[32m[2023-03-14 13:31:55,121] [    INFO][0m - global step 5/15, epoch: 1, batch: 1, rank_id: 0, loss: 1.265173, ppl: 3.543707, lr: 0.0000714286, speed: 0.0634 step/s[0m
-[32m[2023-03-14 13:32:10,019] [    INFO][0m - global step 6/15, epoch: 1, batch: 2, rank_id: 0, loss: 1.109671, ppl: 3.033362, lr: 0.0000642857, speed: 0.0671 step/s[0m
-[32m[2023-03-14 13:32:33,699] [    INFO][0m - global step 7/15, epoch: 2, batch: 0, rank_id: 0, loss: 0.382556, ppl: 1.466028, lr: 0.0000571429, speed: 0.0422 step/s[0m
-[32m[2023-03-14 13:32:48,020] [    INFO][0m - global step 8/15, epoch: 2, batch: 1, rank_id: 0, loss: 0.370297, ppl: 1.448165, lr: 0.0000500000, speed: 0.0698 step/s[0m
-[32m[2023-03-14 13:33:05,804] [    INFO][0m - global step 9/15, epoch: 2, batch: 2, rank_id: 0, loss: 0.641306, ppl: 1.898958, lr: 0.0000428571, speed: 0.0562 step/s[0m
-[32m[2023-03-14 13:33:17,567] [    INFO][0m - global step 10/15, epoch: 3, batch: 0, rank_id: 0, loss: 0.128624, ppl: 1.137263, lr: 0.0000357143, speed: 0.0850 step/s[0m
-[32m[2023-03-14 13:33:17,941] [    INFO][0m - [validation] accuracy: 0.000000, loss: 5.539348, ppl: 254.511914[0m
-[32m[2023-03-14 13:33:17,941] [    INFO][0m - eval done total : 0.37439990043640137 s[0m
-[32m[2023-03-14 13:33:34,727] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\tokenizer_config.json[0m
-[32m[2023-03-14 13:33:34,758] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\special_tokens_map.json[0m
-[32m[2023-03-14 13:33:34,773] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\added_tokens.json[0m
-[32m[2023-03-14 13:34:26,175] [    INFO][0m - global step 11/15, epoch: 3, batch: 1, rank_id: 0, loss: 0.152848, ppl: 1.165147, lr: 0.0000285714, speed: 0.0146 step/s[0m
-[32m[2023-03-14 13:34:41,682] [    INFO][0m - global step 12/15, epoch: 3, batch: 2, rank_id: 0, loss: 0.330935, ppl: 1.392270, lr: 0.0000214286, speed: 0.0645 step/s[0m
-[32m[2023-03-14 13:34:52,929] [    INFO][0m - global step 13/15, epoch: 4, batch: 0, rank_id: 0, loss: 0.050574, ppl: 1.051874, lr: 0.0000142857, speed: 0.0889 step/s[0m
-[32m[2023-03-14 13:35:03,803] [    INFO][0m - global step 14/15, epoch: 4, batch: 1, rank_id: 0, loss: 0.067433, ppl: 1.069758, lr: 0.0000071429, speed: 0.0920 step/s[0m
-[32m[2023-03-14 13:35:14,520] [    INFO][0m - global step 15/15, epoch: 4, batch: 2, rank_id: 0, loss: 0.078734, ppl: 1.081916, lr: 0.0000000000, speed: 0.0933 step/s[0m
-[32m[2023-03-14 13:35:14,832] [    INFO][0m - [validation] accuracy: 0.000000, loss: 6.124359, ppl: 456.851619[0m
-[32m[2023-03-14 13:35:14,832] [    INFO][0m - eval done total : 0.312000036239624 s[0m
-[32m[2023-03-14 13:35:44,799] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\tokenizer_config.json[0m
-[32m[2023-03-14 13:35:44,831] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\special_tokens_map.json[0m
-[32m[2023-03-14 13:35:44,831] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\added_tokens.json[0m
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-15 21:03:32,171] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=256, device='cpu', eval_batch_size=1, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=1, train_file='train3.json', use_amp=False, validation_file='test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-15 21:03:34,291] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:34,291] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:34,301] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-15 21:03:34,401] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-15 21:03:34,411] [    INFO][0m - Adding 		 to the vocabulary[0m
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-35a39191ce3ce3ed/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-35a39191ce3ce3ed/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-d61300bec2433e59/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-d61300bec2433e59/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Map:   0%|          | 0/2 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:00<00:00, 20.00 examples/s]                                                         Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-15 21:03:37,341] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:37,341] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-15 21:03:37,341] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-15 21:03:37,341] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-D:\ProgramData\Anaconda3\python.exe: can't open file 'run_clm.py': [Errno 2] No such file or directory
-D:\ProgramData\Anaconda3\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp, sys, os
-[33m[2023-03-16 09:30:46,705] [ WARNING][0m - Detected that datasets module was imported before paddlenlp. This may cause PaddleNLP datasets to be unavalible in intranet. Please import paddlenlp before datasets module to avoid download issues[0m
-Namespace(adam_epsilon=1e-06, block_size=256, device='cpu', eval_batch_size=1, learning_rate=0.0001, logging_steps=1, max_steps=-1, model_name_or_path='Salesforce/codegen-350M-multi', num_train_epochs=5, output_dir='D:\\ProgramData\\.paddlenlp\\models\\miaomiao\\output', overwrite_cache=False, save_steps=10, scale_loss=32768, seed=42, train_batch_size=1, train_file='trainData\\train3.json', use_amp=False, validation_file='trainData\\test.json', warmup_proportion=0.1, warmup_steps=0, weight_decay=0.0)
-[32m[2023-03-16 09:30:48,035] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\vocab.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:48,035] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\vocab.json[0m
-[32m[2023-03-16 09:30:48,035] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\merges.txt and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:48,035] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\merges.txt[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\added_tokens.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\added_tokens.json[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\special_tokens_map.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\special_tokens_map.json[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\tokenizer_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:48,045] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\tokenizer_config.json[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                                 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                                to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                               to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                              to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                             to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                            to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                           to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                          to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                         to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                        to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                       to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                      to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                     to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                    to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                   to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                  to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding                to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding               to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding              to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding             to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding            to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding           to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding          to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding         to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding        to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding       to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding      to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding     to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding    to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 									 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 								 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 							 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 						 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 					 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 				 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 			 to the vocabulary[0m
-[32m[2023-03-16 09:30:48,135] [    INFO][0m - Adding 		 to the vocabulary[0m
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-62a30f3358c19272/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-62a30f3358c19272/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Downloading and preparing dataset json/default to C:/Users/015226863/.cache/huggingface/datasets/json/default-f8976a397ee1fde6/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51...
-Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<?, ?it/s]
-Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to C:/Users/015226863/.cache/huggingface/datasets/json/default-f8976a397ee1fde6/0.0.0/0f7e3662623656454fcd2b650f34e886a7db4b9104504885bd462096cc7a9f51. Subsequent calls will reuse this data.
-Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/2 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 Map:   0%|          | 0/1 [00:00<?, ? examples/s]                                                 [32m[2023-03-16 09:30:53,706] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_state.pdparams and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:53,706] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_state.pdparams[0m
-[32m[2023-03-16 09:30:53,706] [    INFO][0m - Downloading https://bj.bcebos.com/paddlenlp/models/community/Salesforce/codegen-350M-multi\model_config.json and saved to D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi[0m
-[32m[2023-03-16 09:30:53,706] [    INFO][0m - Found D:\ProgramData\.paddlenlp\models\Salesforce/codegen-350M-multi\model_config.json[0m
-[32m[2023-03-16 09:33:18,405] [    INFO][0m - global step 1/15, epoch: 0, batch: 0, rank_id: 0, loss: 1.597612, ppl: 4.941219, lr: 0.0001000000, speed: 0.0158 step/s[0m
-[32m[2023-03-16 09:34:31,326] [    INFO][0m - global step 2/15, epoch: 0, batch: 1, rank_id: 0, loss: 1.654751, ppl: 5.231779, lr: 0.0000928571, speed: 0.0137 step/s[0m
-[32m[2023-03-16 09:35:54,574] [    INFO][0m - global step 3/15, epoch: 0, batch: 2, rank_id: 0, loss: 1.003053, ppl: 2.726595, lr: 0.0000857143, speed: 0.0120 step/s[0m
-[32m[2023-03-16 09:36:49,786] [    INFO][0m - global step 4/15, epoch: 1, batch: 0, rank_id: 0, loss: 0.639184, ppl: 1.894934, lr: 0.0000785714, speed: 0.0182 step/s[0m
-[32m[2023-03-16 09:38:28,883] [    INFO][0m - global step 5/15, epoch: 1, batch: 1, rank_id: 0, loss: 1.265173, ppl: 3.543707, lr: 0.0000714286, speed: 0.0101 step/s[0m
-[32m[2023-03-16 09:40:28,350] [    INFO][0m - global step 6/15, epoch: 1, batch: 2, rank_id: 0, loss: 1.109671, ppl: 3.033362, lr: 0.0000642857, speed: 0.0084 step/s[0m
-[32m[2023-03-16 09:42:09,244] [    INFO][0m - global step 7/15, epoch: 2, batch: 0, rank_id: 0, loss: 0.382556, ppl: 1.466028, lr: 0.0000571429, speed: 0.0099 step/s[0m
-[32m[2023-03-16 09:43:34,400] [    INFO][0m - global step 8/15, epoch: 2, batch: 1, rank_id: 0, loss: 0.370297, ppl: 1.448165, lr: 0.0000500000, speed: 0.0118 step/s[0m
-[32m[2023-03-16 09:45:17,563] [    INFO][0m - global step 9/15, epoch: 2, batch: 2, rank_id: 0, loss: 0.641306, ppl: 1.898958, lr: 0.0000428571, speed: 0.0097 step/s[0m
-[32m[2023-03-16 09:46:55,567] [    INFO][0m - global step 10/15, epoch: 3, batch: 0, rank_id: 0, loss: 0.128624, ppl: 1.137263, lr: 0.0000357143, speed: 0.0102 step/s[0m
-[32m[2023-03-16 09:46:56,617] [    INFO][0m - [validation] accuracy: 0.000000, loss: 5.539348, ppl: 254.511914[0m
-[32m[2023-03-16 09:46:56,617] [    INFO][0m - eval done total : 1.0099999904632568 s[0m
-[32m[2023-03-16 09:47:23,470] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\tokenizer_config.json[0m
-[32m[2023-03-16 09:47:23,470] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\special_tokens_map.json[0m
-[32m[2023-03-16 09:47:23,470] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\added_tokens.json[0m
-[32m[2023-03-16 09:48:38,632] [    INFO][0m - global step 11/15, epoch: 3, batch: 1, rank_id: 0, loss: 0.152848, ppl: 1.165147, lr: 0.0000285714, speed: 0.0097 step/s[0m
-[32m[2023-03-16 09:49:43,537] [    INFO][0m - global step 12/15, epoch: 3, batch: 2, rank_id: 0, loss: 0.330935, ppl: 1.392270, lr: 0.0000214286, speed: 0.0154 step/s[0m
-[32m[2023-03-16 09:50:57,530] [    INFO][0m - global step 13/15, epoch: 4, batch: 0, rank_id: 0, loss: 0.050574, ppl: 1.051874, lr: 0.0000142857, speed: 0.0135 step/s[0m
-[32m[2023-03-16 09:52:18,302] [    INFO][0m - global step 14/15, epoch: 4, batch: 1, rank_id: 0, loss: 0.067433, ppl: 1.069758, lr: 0.0000071429, speed: 0.0124 step/s[0m
-[32m[2023-03-16 09:53:44,188] [    INFO][0m - global step 15/15, epoch: 4, batch: 2, rank_id: 0, loss: 0.078734, ppl: 1.081916, lr: 0.0000000000, speed: 0.0117 step/s[0m
-[32m[2023-03-16 09:53:45,118] [    INFO][0m - [validation] accuracy: 0.000000, loss: 6.124359, ppl: 456.851619[0m
-[32m[2023-03-16 09:53:45,128] [    INFO][0m - eval done total : 0.880000114440918 s[0m
-[32m[2023-03-16 09:54:08,830] [    INFO][0m - tokenizer config file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\tokenizer_config.json[0m
-[32m[2023-03-16 09:54:08,840] [    INFO][0m - Special tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\special_tokens_map.json[0m
-[32m[2023-03-16 09:54:08,840] [    INFO][0m - added tokens file saved in D:\ProgramData\.paddlenlp\models\miaomiao\output\codegen_model_final_15\added_tokens.json[0m
