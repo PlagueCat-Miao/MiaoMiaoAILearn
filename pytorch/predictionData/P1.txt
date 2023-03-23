@@ -1,0 +1,15 @@
+<div class="m-land-center limit-container">
+         <div class="login-box">
+             <div class="relative-pos">
+        <div class="m-login-dialog m-userName-logon" id="commonLogin">
+            <div class="m-uesrland"><style>.m-uesrland .m-login-link a:link{text-decoration:none;}</style>
+                            <div class="m-login-link">
+                                <a class="m-login-userNameLink m-login-linked" id="kBaobtn" href="javascript:">用户名登录</a>
+								
+								==============================================
+							</div>                                       
+							<div class="m-login-dialog m-userName-logon">
+							<div class="m-uesrland"><style>.m-uesrland.m-login-link a:link{text-decoration:none;}</style>
+							<div class="m-login-link">                                       
+							<a class="m-login-userNameLink m-login-linked" id="kBaobtn" href="javascript:">用户名登录</a>
+							

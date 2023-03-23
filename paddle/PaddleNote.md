@@ -7,6 +7,9 @@
 ```powershell
 conda activate my_paddlenlp
 ```
+```powershell
+conda activate paddle_env
+```
 
 
 

@@ -1,0 +1,18 @@
+private String alpha;
+private String bravo
+private String charlie
+private String delta
+private String echo
+private String fox 
+private String golf
+private String hotel
+private String india
+private String juliet
+private String kilo
+
+
+
+info.setAlpha("data.alpha");
+info.setBravo("data.bravo");
+info.setCharlie("data.Charlie");
+info.setDelta(
