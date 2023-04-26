@@ -1,0 +1,7 @@
+/*** 获取Gson*/ private static Gson gson = new GsonBuilder().enableComplexMapKeySerialization().create();
+@RequestMapping("/makeTrain") public String makeTrain() {\r\n}
+/*** 文件内容扩张 */ private void FileAppend(String path, String text) { \n try { FileWriter writer = new FileWriter(path, true); writer.write(text + "\r\n"); writer.close(); } catch (Exception e) { return; } }
+@RequestMapping("/UseGson") public String useGson() {\r\n}
+//json序列化. \r\n String str = gson.toJson(hashMap);
+//json反序列化. \r\n ArrayList<Integer> objArray = new ObjectMapper().convertValue(obj.get("arrays"), ArrayList.class);
+//终端打印 hell world. \r\n System.out.println("hell world");

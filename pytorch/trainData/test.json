@@ -1,0 +1,7 @@
+{
+  "data": [
+    {
+      "code": "public class ServletInitializer extends SpringBootServletInitializer {\n/***让我们开始*/\n@Override\nprotected SpringApplicationBuilder configure(SpringApplicationBuilder application) {\nreturn application.sources(LearnApplication.class);\n"
+    }
+  ]
+}

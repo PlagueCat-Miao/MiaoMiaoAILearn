@@ -1,26 +1,6 @@
-import re
-import paddle
-import os
-import argparse
-import random
-import time
-import distutils.util
-from pprint import pprint
-from functools import partial
-import numpy as np
-from itertools import chain
-from datasets import load_dataset
-import math
-from visualdl import LogWriter
-import paddle
-import paddle.nn as nn
-from paddle.io import BatchSampler, DistributedBatchSampler, DataLoader
+
 from paddlenlp.transformers import CodeGenForCausalLM
 from paddlenlp.transformers import CodeGenTokenizer
-from paddlenlp.transformers import LinearDecayWithWarmup
-from paddlenlp.utils.log import logger
-from paddlenlp.data import DataCollatorWithPadding
-from paddle.metric import Accuracy
 
 #使用模型地址
 model_dir = "D:\ProgramData\.paddlenlp\models\miaomiao\output"

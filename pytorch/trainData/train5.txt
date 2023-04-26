@@ -1,0 +1,7 @@
+/*** 获取Gson*/ private static Gson gson = new GsonBuilder().enableComplexMapKeySerialization().create();
+@PostMapping("ApiName")
+@SensitiveCat( "ApiName", ischeckABC = true, nextAction = "")
+public String ApiName(@VoVaild repVO,Model model)
+{
+    return "mylocal/ApiName.html"
+}

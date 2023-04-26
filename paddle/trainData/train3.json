@@ -1,2 +1,689 @@
-{"code":"package com.plague.learn;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplicationpublic class LearnApplication {    /**     * 启动函数     * @param args     */    public static void main(String[] args) {        SpringApplication.run(LearnApplication.class, args);    }}"}
-{"code":"package com.plague.learn.T03_MakeTrainJsonData;import com.google.gson.Gson;import com.google.gson.GsonBuilder;import org.springframework.web.bind.annotation.RequestMapping;import org.springframework.web.bind.annotation.RequestParam;import org.springframework.web.bind.annotation.RestController;import java.io.FileWriter;import java.io.IOException;import java.nio.file.Files;import java.nio.file.Path;import java.nio.file.Paths;import java.util.ArrayList;import java.util.LinkedHashMap;import java.util.List;import java.util.stream.Collectors;import java.util.stream.Stream;@RestControllerpublic class MakeTrainData {    /**     * 获取Gson     */    private static Gson gson \u003d new GsonBuilder().enableComplexMapKeySerialization().create();    /**     * 对象目录     */    private static String workPath\u003d \"D:\\\\codeworkbase\\\\Java\\\\JavaSpringBoot-MySqlDemo\";    @RequestMapping(\"/makeTrain\")    public String makeTrain() {        //获取文件夹下文件        List\u003cPath\u003e javaFileNames \u003d new ArrayList\u003c\u003e();        try (Stream\u003cPath\u003e paths \u003d Files.walk(Paths.get(workPath))) {            List\u003cPath\u003e fileNames \u003d paths                    .filter(Files::isRegularFile)                    .collect(Collectors.toList());            for (Path path : fileNames) {                if (path.toString().endsWith(\"java\")) {                    javaFileNames.add(path);                }                System.out.println((path.getFileName() +\":\" +path.getFileName().endsWith(\"java\")));            }        } catch (IOException e) {            return \"转换失败\" + e.getMessage();        }        //训练文件路径        String trainDataFile \u003d workPath + \"/train.json\";        for (Path path : javaFileNames) {            String text \u003d FileRead(path);            LinkedHashMap trainDataMap \u003d new LinkedHashMap\u003c\u003e();            trainDataMap.put(\"code\", text);            //json序列化            String trainDataJsonStr \u003d gson.toJson(trainDataMap);            // 文件内容扩张append            FileAppend(trainDataFile, trainDataJsonStr);        }        return \"转换成功\";    }    /**     * 文件内容扩张 append     *     * @param path 文件路径     * @param text 文件内容     */    private void FileAppend(String path, String text) {        try {            FileWriter writer \u003d new FileWriter(path, true);            writer.write(text + \"\\r\\n\");            writer.close();        } catch (Exception e) {            return;        }    }    /**     * 获取文件内容 read     *     * @param path 文件路径     */    private String FileRead(Path path) {        String text \u003d \"\";        try {            List\u003cString\u003e lines \u003d Files.readAllLines(path);            for (String line : lines) {                text +\u003d line;            }        } catch (Exception e) {            return text;        }        return text;    }}"}
+{
+    "code": "package com.plague.learn;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplicationpublic class LearnApplication {    /**     * 启动函数     * @param args     */    public static void main(String[] args) {        SpringApplication.run(LearnApplication.class, args);    }}"
+}
+{
+    "code": "package com.plague.learn.T03_MakeTrainJsonData;import com.google.gson.Gson;import com.google.gson.GsonBuilder;import org.springframework.web.bind.annotation.RequestMapping;import org.springframework.web.bind.annotation.RequestParam;import org.springframework.web.bind.annotation.RestController;import java.io.FileWriter;import java.io.IOException;import java.nio.file.Files;import java.nio.file.Path;import java.nio.file.Paths;import java.util.ArrayList;import java.util.LinkedHashMap;import java.util.List;import java.util.stream.Collectors;import java.util.stream.Stream;@RestControllerpublic class MakeTrainData {    /**     * 获取Gson     */    private static Gson gson \u003d new GsonBuilder().enableComplexMapKeySerialization().create();    /**     * 对象目录     */    private static String workPath\u003d \"D:\\\\codeworkbase\\\\Java\\\\JavaSpringBoot-MySqlDemo\";    @RequestMapping(\"/makeTrain\")    public String makeTrain() {        //获取文件夹下文件        List\u003cPath\u003e javaFileNames \u003d new ArrayList\u003c\u003e();        try (Stream\u003cPath\u003e paths \u003d Files.walk(Paths.get(workPath))) {            List\u003cPath\u003e fileNames \u003d paths                    .filter(Files::isRegularFile)                    .collect(Collectors.toList());            for (Path path : fileNames) {                if (path.toString().endsWith(\"java\")) {                    javaFileNames.add(path);                }                System.out.println((path.getFileName() +\":\" +path.getFileName().endsWith(\"java\")));            }        } catch (IOException e) {            return \"转换失败\" + e.getMessage();        }        //训练文件路径        String trainDataFile \u003d workPath + \"/train.json\";        for (Path path : javaFileNames) {            String text \u003d FileRead(path);            LinkedHashMap trainDataMap \u003d new LinkedHashMap\u003c\u003e();            trainDataMap.put(\"code\", text);            //json序列化            String trainDataJsonStr \u003d gson.toJson(trainDataMap);            // 文件内容扩张append            FileAppend(trainDataFile, trainDataJsonStr);        }        return \"转换成功\";    }    /**     * 文件内容扩张 append     *     * @param path 文件路径     * @param text 文件内容     */    private void FileAppend(String path, String text) {        try {            FileWriter writer \u003d new FileWriter(path, true);            writer.write(text + \"\\r\\n\");            writer.close();        } catch (Exception e) {            return;        }    }    /**     * 获取文件内容 read     *     * @param path 文件路径     */    private String FileRead(Path path) {        String text \u003d \"\";        try {            List\u003cString\u003e lines \u003d Files.readAllLines(path);            for (String line : lines) {                text +\u003d line;            }        } catch (Exception e) {            return text;        }        return text;    }}"
+}
+{
+    "webRespCode": "0000",
+    "webRespMsg": null,
+    "abcFormId": "11622188",
+    "showInfoList": [
+        {
+            "time": "20221020",
+            "price": "386.60"
+        },
+        {
+            "time": "20221021",
+            "price": "387.00"
+        },
+        {
+            "time": "20221022",
+            "price": "389.43"
+        },
+        {
+            "time": "20221023",
+            "price": "389.43"
+        },
+        {
+            "time": "20221024",
+            "price": "390.80"
+        },
+        {
+            "time": "20221025",
+            "price": "392.00"
+        },
+        {
+            "time": "20221026",
+            "price": "391.90"
+        },
+        {
+            "time": "20221027",
+            "price": "390.50"
+        },
+        {
+            "time": "20221028",
+            "price": "391.70"
+        },
+        {
+            "time": "20221029",
+            "price": "393.05"
+        },
+        {
+            "time": "20221030",
+            "price": "393.05"
+        },
+        {
+            "time": "20221031",
+            "price": "390.10"
+        },
+        {
+            "time": "20221101",
+            "price": "390.35"
+        },
+        {
+            "time": "20221102",
+            "price": "390.85"
+        },
+        {
+            "time": "20221103",
+            "price": "389.80"
+        },
+        {
+            "time": "20221104",
+            "price": "389.65"
+        },
+        {
+            "time": "20221105",
+            "price": "393.20"
+        },
+        {
+            "time": "20221106",
+            "price": "393.20"
+        },
+        {
+            "time": "20221107",
+            "price": "392.65"
+        },
+        {
+            "time": "20221108",
+            "price": "393.64"
+        },
+        {
+            "time": "20221109",
+            "price": "400.98"
+        },
+        {
+            "time": "20221110",
+            "price": "402.10"
+        },
+        {
+            "time": "20221111",
+            "price": "406.60"
+        },
+        {
+            "time": "20221112",
+            "price": "409.19"
+        },
+        {
+            "time": "20221113",
+            "price": "409.19"
+        },
+        {
+            "time": "20221114",
+            "price": "402.20"
+        },
+        {
+            "time": "20221115",
+            "price": "403.00"
+        },
+        {
+            "time": "20221116",
+            "price": "404.10"
+        },
+        {
+            "time": "20221117",
+            "price": "405.10"
+        },
+        {
+            "time": "20221118",
+            "price": "405.12"
+        },
+        {
+            "time": "20221119",
+            "price": "407.10"
+        },
+        {
+            "time": "20221120",
+            "price": "407.10"
+        },
+        {
+            "time": "20221121",
+            "price": "403.08"
+        },
+        {
+            "time": "20221122",
+            "price": "402.70"
+        },
+        {
+            "time": "20221123",
+            "price": "402.40"
+        },
+        {
+            "time": "20221124",
+            "price": "404.60"
+        },
+        {
+            "time": "20221125",
+            "price": "405.50"
+        },
+        {
+            "time": "20221126",
+            "price": "406.80"
+        },
+        {
+            "time": "20221127",
+            "price": "406.80"
+        },
+        {
+            "time": "20221128",
+            "price": "406.80"
+        },
+        {
+            "time": "20221129",
+            "price": "404.78"
+        },
+        {
+            "time": "20221130",
+            "price": "403.25"
+        },
+        {
+            "time": "20221201",
+            "price": "404.40"
+        },
+        {
+            "time": "20221202",
+            "price": "407.05"
+        },
+        {
+            "time": "20221203",
+            "price": "410.50"
+        },
+        {
+            "time": "20221204",
+            "price": "410.50"
+        },
+        {
+            "time": "20221205",
+            "price": "404.50"
+        },
+        {
+            "time": "20221206",
+            "price": "399.90"
+        },
+        {
+            "time": "20221207",
+            "price": "400.00"
+        },
+        {
+            "time": "20221208",
+            "price": "400.89"
+        },
+        {
+            "time": "20221209",
+            "price": "402.60"
+        },
+        {
+            "time": "20221210",
+            "price": "405.22"
+        },
+        {
+            "time": "20221211",
+            "price": "405.22"
+        },
+        {
+            "time": "20221212",
+            "price": "402.55"
+        },
+        {
+            "time": "20221213",
+            "price": "401.50"
+        },
+        {
+            "time": "20221214",
+            "price": "405.90"
+        },
+        {
+            "time": "20221215",
+            "price": "402.59"
+        },
+        {
+            "time": "20221216",
+            "price": "400.55"
+        },
+        {
+            "time": "20221217",
+            "price": "404.19"
+        },
+        {
+            "time": "20221218",
+            "price": "404.19"
+        },
+        {
+            "time": "20221219",
+            "price": "404.20"
+        },
+        {
+            "time": "20221220",
+            "price": "402.50"
+        },
+        {
+            "time": "20221221",
+            "price": "408.20"
+        },
+        {
+            "time": "20221222",
+            "price": "408.40"
+        },
+        {
+            "time": "20221223",
+            "price": "405.09"
+        },
+        {
+            "time": "20221224",
+            "price": "409.53"
+        },
+        {
+            "time": "20221225",
+            "price": "409.53"
+        },
+        {
+            "time": "20221226",
+            "price": "405.50"
+        },
+        {
+            "time": "20221227",
+            "price": "405.00"
+        },
+        {
+            "time": "20221228",
+            "price": "408.00"
+        },
+        {
+            "time": "20221229",
+            "price": "407.00"
+        },
+        {
+            "time": "20221230",
+            "price": "407.25"
+        },
+        {
+            "time": "20230103",
+            "price": "408.50"
+        },
+        {
+            "time": "20230104",
+            "price": "410.20"
+        },
+        {
+            "time": "20230105",
+            "price": "410.73"
+        },
+        {
+            "time": "20230106",
+            "price": "407.35"
+        },
+        {
+            "time": "20230107",
+            "price": "409.85"
+        },
+        {
+            "time": "20230108",
+            "price": "409.85"
+        },
+        {
+            "time": "20230109",
+            "price": "411.42"
+        },
+        {
+            "time": "20230110",
+            "price": "412.13"
+        },
+        {
+            "time": "20230111",
+            "price": "413.00"
+        },
+        {
+            "time": "20230112",
+            "price": "412.37"
+        },
+        {
+            "time": "20230113",
+            "price": "412.43"
+        },
+        {
+            "time": "20230114",
+            "price": "414.93"
+        },
+        {
+            "time": "20230115",
+            "price": "414.93"
+        },
+        {
+            "time": "20230116",
+            "price": "415.21"
+        },
+        {
+            "time": "20230117",
+            "price": "416.19"
+        },
+        {
+            "time": "20230118",
+            "price": "416.23"
+        },
+        {
+            "time": "20230119",
+            "price": "417.21"
+        },
+        {
+            "time": "20230120",
+            "price": "420.45"
+        },
+        {
+            "time": "20230128",
+            "price": "422.95"
+        },
+        {
+            "time": "20230129",
+            "price": "422.95"
+        },
+        {
+            "time": "20230130",
+            "price": "420.67"
+        },
+        {
+            "time": "20230131",
+            "price": "416.33"
+        },
+        {
+            "time": "20230201",
+            "price": "419.67"
+        },
+        {
+            "time": "20230202",
+            "price": "423.85"
+        },
+        {
+            "time": "20230203",
+            "price": "417.52"
+        },
+        {
+            "time": "20230204",
+            "price": "420.02"
+        },
+        {
+            "time": "20230205",
+            "price": "420.02"
+        },
+        {
+            "time": "20230206",
+            "price": "412.04"
+        },
+        {
+            "time": "20230207",
+            "price": "411.00"
+        },
+        {
+            "time": "20230208",
+            "price": "411.45"
+        },
+        {
+            "time": "20230209",
+            "price": "412.54"
+        },
+        {
+            "time": "20230210",
+            "price": "410.65"
+        },
+        {
+            "time": "20230211",
+            "price": "413.15"
+        },
+        {
+            "time": "20230212",
+            "price": "413.15"
+        },
+        {
+            "time": "20230213",
+            "price": "411.83"
+        },
+        {
+            "time": "20230214",
+            "price": "411.08"
+        },
+        {
+            "time": "20230215",
+            "price": "410.40"
+        },
+        {
+            "time": "20230216",
+            "price": "410.00"
+        },
+        {
+            "time": "20230217",
+            "price": "409.35"
+        },
+        {
+            "time": "20230218",
+            "price": "411.85"
+        },
+        {
+            "time": "20230219",
+            "price": "411.85"
+        },
+        {
+            "time": "20230220",
+            "price": "411.15"
+        },
+        {
+            "time": "20230221",
+            "price": "409.80"
+        },
+        {
+            "time": "20230222",
+            "price": "412.00"
+        },
+        {
+            "time": "20230223",
+            "price": "410.78"
+        },
+        {
+            "time": "20230224",
+            "price": "412.01"
+        },
+        {
+            "time": "20230225",
+            "price": "414.51"
+        },
+        {
+            "time": "20230226",
+            "price": "414.51"
+        },
+        {
+            "time": "20230227",
+            "price": "411.04"
+        },
+        {
+            "time": "20230228",
+            "price": "410.69"
+        },
+        {
+            "time": "20230301",
+            "price": "412.75"
+        },
+        {
+            "time": "20230302",
+            "price": "412.30"
+        },
+        {
+            "time": "20230303",
+            "price": "414.21"
+        },
+        {
+            "time": "20230304",
+            "price": "416.71"
+        },
+        {
+            "time": "20230305",
+            "price": "416.71"
+        },
+        {
+            "time": "20230306",
+            "price": "418.26"
+        },
+        {
+            "time": "20230307",
+            "price": "417.76"
+        },
+        {
+            "time": "20230308",
+            "price": "413.22"
+        },
+        {
+            "time": "20230309",
+            "price": "413.46"
+        },
+        {
+            "time": "20230310",
+            "price": "415.73"
+        },
+        {
+            "time": "20230311",
+            "price": "418.23"
+        },
+        {
+            "time": "20230312",
+            "price": "418.23"
+        },
+        {
+            "time": "20230313",
+            "price": "419.45"
+        },
+        {
+            "time": "20230314",
+            "price": "425.00"
+        },
+        {
+            "time": "20230315",
+            "price": "424.56"
+        },
+        {
+            "time": "20230316",
+            "price": "428.29"
+        },
+        {
+            "time": "20230317",
+            "price": "430.48"
+        },
+        {
+            "time": "20230318",
+            "price": "432.98"
+        },
+        {
+            "time": "20230319",
+            "price": "432.98"
+        },
+        {
+            "time": "20230320",
+            "price": "447.23"
+        },
+        {
+            "time": "20230321",
+            "price": "439.36"
+        },
+        {
+            "time": "20230322",
+            "price": "432.14"
+        },
+        {
+            "time": "20230323",
+            "price": "436.20"
+        },
+        {
+            "time": "20230324",
+            "price": "437.66"
+        },
+        {
+            "time": "20230325",
+            "price": "440.16"
+        },
+        {
+            "time": "20230326",
+            "price": "440.16"
+        },
+        {
+            "time": "20230327",
+            "price": "435.22"
+        },
+        {
+            "time": "20230328",
+            "price": "433.81"
+        },
+        {
+            "time": "20230329",
+            "price": "435.01"
+        },
+        {
+            "time": "20230330",
+            "price": "435.19"
+        },
+        {
+            "time": "20230331",
+            "price": "438.74"
+        },
+        {
+            "time": "20230401",
+            "price": "441.24"
+        },
+        {
+            "time": "20230402",
+            "price": "441.24"
+        },
+        {
+            "time": "20230403",
+            "price": "433.56"
+        },
+        {
+            "time": "20230404",
+            "price": "437.51"
+        },
+        {
+            "time": "20230406",
+            "price": "444.69"
+        },
+        {
+            "time": "20230407",
+            "price": "443.90"
+        },
+        {
+            "time": "20230408",
+            "price": "446.40"
+        },
+        {
+            "time": "20230409",
+            "price": "446.40"
+        },
+        {
+            "time": "20230410",
+            "price": "440.33"
+        },
+        {
+            "time": "20230411",
+            "price": "442.19"
+        },
+        {
+            "time": "20230412",
+            "price": "445.34"
+        },
+        {
+            "time": "20230413",
+            "price": "445.86"
+        },
+        {
+            "time": "20230414",
+            "price": "447.35"
+        },
+        {
+            "time": "20230415",
+            "price": "449.85"
+        },
+        {
+            "time": "20230416",
+            "price": "449.85"
+        },
+        {
+            "time": "20230417",
+            "price": "443.44"
+        }
+    ]
+}
