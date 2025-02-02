@@ -1,10 +1,6 @@
 # MyAILearn
 
 
-
-
-
-
 近期AI调研喵
 
 ## 内容引导
@@ -15,9 +11,9 @@
 
 setting -> Developer settings -> Personal access tokens (classic) -> tokens
 
-```
- git remote remove origin
- git remote add origin https://<your_token>@github.com/PlagueCat-Miao/MiaoTool.git
+```shell
+git remote remove origin
+git remote add origin https://<your_token>@github.com/PlagueCat-Miao/MiaoMiaoAILearn.git
 ```
 
 ​    
